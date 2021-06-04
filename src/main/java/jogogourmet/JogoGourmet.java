@@ -12,19 +12,19 @@ public class JogoGourmet {
 
     public static void main(String[] args){
 
-        // Cria uma instancia da classe Repertório
+        // Create a instance on the class Repertório
         Repertorio repertorio;
 
-        // Define as variáveis do repertório
+        // Define the variables of repertório
         int indice;
         String prato;
         int relacionado;
         int naoEh;
 
-        // Instancia a lista com elementos do tipo Repertório
+        // Intance the list with the elementes of type Repertório
         List<Repertorio> listaRepertorio = new ArrayList<>();
 
-        // Define a variável da resposta
+        // Define the variable of the answer
         int  resposta;
 
         // Define as variáveis que serão usadas pelo algoritmo de aprendizado
