@@ -12,7 +12,7 @@ public class JogoGourmet {
 
     public static void main(String[] args){
 
-        // Create a instance on the class Repertório
+        // Create an instance on the class Repertório
         Repertorio repertorio;
 
         // Define the variables of repertório
@@ -27,7 +27,7 @@ public class JogoGourmet {
         // Define the variable of the answer
         int  resposta;
 
-        // Define as variáveis que serão usadas pelo algoritmo de aprendizado
+        // Define the variables which will be used by the algorythm of learning
         int indiceNovoPrato;
         String novoPrato;
         int indiceNovaCaracteristica;
@@ -37,7 +37,7 @@ public class JogoGourmet {
         int indiceNaoEh;
         int indiceASubstituir;
 
-        // Adiciona os três itens iniciais da lista
+        // Add the three inicial items of the list
         listaRepertorio.add(new Repertorio("massa", 1, 2));   
         listaRepertorio.add(new Repertorio("Lasanha", 0, 0));
         listaRepertorio.add(new Repertorio("Bolo de Chocolate", 0, 0));
@@ -49,13 +49,13 @@ public class JogoGourmet {
         dialogo.add(imagem, BorderLayout.NORTH);
         dialogo.setResizable(true);
         
-        // Loop principal
+        // Main loop
         while (true) {
-            // Começa pelo primeiro elemento da lista
+            // Starts for the first element of the list
             indiceAtual = 0;
-            // Inicia a rodada com a Caixa de Mensagem Inicial
+            // Inciates the round with the inicial message box
             dialogo.setVisible(true);
-            // O programa será encerrado caso o usuário clique em "X" (Fechar) na caixa de mensagem no início da rodada
+            // The program will be closed in case of user click on "X" (Fechar) on the messagebox on the start of the round
             if (painelDeOpcoes.getValue() == null)
                 System.exit(0);
             
